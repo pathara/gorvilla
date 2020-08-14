@@ -25,7 +25,7 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    font-size: 14px;
+    font-size: 17px; /*original 14px*/
     color: #525456;
 }
 
@@ -39,7 +39,7 @@ h6 {
 }
 
 h6 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 a {
@@ -164,10 +164,10 @@ p{
 
 .navbar-custom .navbar-nav li a {
     color: #525456;
-    font-size: 12px;
+    font-size: 15px;
     transition: all 0.5s;
     letter-spacing: 0.03rem;
-    background-color: transparent !important;
+    /*background-color: transparent !important;*/
     padding: 6px 0;
     margin: 0 13px;
     font-weight: 500;
@@ -180,9 +180,9 @@ p{
 }
 
 .logo {
-    color: #383e44 !important;
+    /*color: #383e44 !important;*/  /*first logo's color*/
     font-weight: 700;
-    font-size: 18px;
+    font-size: 24px; /*18px*/
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -239,11 +239,14 @@ p{
 
 
 /*---NAVBAR STICKY---*/
-
+.sticky{
+	background-color:#FFFFFF;opacity:0.7;
+	
+}
 .nav-sticky.navbar-custom {
     margin-top: 0px;
     padding: 15px 0px;
-    background-color: #FFF;
+    background-color: #FFF;opacity:1!important;
     box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
     color: #000 !important;
 }
@@ -281,7 +284,7 @@ p{
 ================================*/
 
 .title-heading {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .title h1{
@@ -501,7 +504,7 @@ p{
 *************************/
 
 .service h3 {
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 3px;
 }
 
