@@ -15,7 +15,7 @@
         $(window).scroll(function() {
             var scroll = $(window).scrollTop();
 
-            if (scroll >= 50) {
+            if (scroll >= 15) {
                 $(".sticky").addClass("nav-sticky");
             } else {
                 $(".sticky").removeClass("nav-sticky");
@@ -25,7 +25,7 @@
 
     Larix.prototype.initSmoothLink = function() {
         // Smooth scroll
-        $('.navbar-nav a').on('click', function(event) {
+        $('.navbar-nav a, .smooth a').on('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - 0
@@ -33,6 +33,7 @@
             event.preventDefault();
         });
     },
+    
 
     Larix.prototype.initTestimonials = function() {
         //Owl Carousel
