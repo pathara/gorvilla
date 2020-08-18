@@ -149,6 +149,12 @@ p{
 .font-weight-medium {
     font-weight: 500;
 }
+.font21{
+	font-size:1.1em; font-weight:500;
+}
+.font22{
+	font-size:1.2em;
+}
 
 /*===============================
        2. Navbar Custom
@@ -920,6 +926,11 @@ textarea.form-control {
 .footer{
     padding-top: 80px;
     padding-bottom: 40px;
+    color: #818d9c;
+}
+.footer2{
+    padding-top: 5px;
+    padding-bottom: 00px;
     color: #818d9c;
 }
 
