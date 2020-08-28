@@ -30,9 +30,11 @@
 	<link rel="stylesheet" href="css/owl.carousel.css" />
 	<link rel="stylesheet" href="css/owl.theme.css" />
 	<link rel="stylesheet" href="css/owl.transitions.css" />
+	<link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet"> <!-- สำคัญนะ    -->
 
 	<!-- Custom  Css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/style_map.css" />
 </head>
 
 <body>
@@ -175,7 +177,7 @@
 										<li>Satellite Channel</li>
 										<li>Telephone</li>
 										<li>Free Internet and Wifi</li>
-										
+
 									</ul>
 
 							</div>
@@ -260,7 +262,7 @@
 				<div class="col-lg-4 col-md-4">
 					<div class="features-box mt-4">
 						<div class="media">
-							<div class="features-icon text-center">
+							<div class="features-icon text-center" style="left: 0px; top: 0px">
 								<i class="uil uil-car-sideview"></i>
 							</div>
 							<div class="media-body ml-4">
@@ -296,22 +298,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4 col-md-4">
-					<div class="features-box mt-4">
-						<div class="media">
-							<div class="features-icon text-center">
-								<i class="uil"> <img src="images/cctv.svg" style="width:22px; height:22px;"></i>
-							</div>
-							<div class="media-body ml-4">
-								<h5 class="mt-0 f-19">Safety & Security</h5>
-								<p class="text-muted">
-									24-Hour Security
-								</p>
-
-							</div>
-						</div>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</section>
@@ -582,7 +569,7 @@
 	<section class="section bg-light" id="landmarks">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-lg-7">
+				<div class="col-lg-7" style="">
 					<div class="text-center">
 						<h4 class="title-heading text-uppercase">Popular landmarks</h4>
 						<!--    <p class="title-desc text-muted mt-3">Tools are beyond the one-click install, async tech merges with ultimate flexibility experiences that have meaning and add a value.</p>
@@ -595,13 +582,7 @@
 		</div>
 	</section>
 
-	<section id="gmaps">
-		<div class="">
-    <div class="map-responsive">
-
-			<iframe src="https://www.google.com/maps/d/embed?mid=1f-8ZQ2QuKg8whCH-sEEjA0F6M_mki2oQ" style=" max-height:450px; height: 400px; width:100%;" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> <br />
-		</div></div>
-	</section>
+	
 	<!-- PLANS END -->
 
 	<!-- TEAM START -->
@@ -609,6 +590,298 @@
 	<!-- TEAM END -->
 
 	<!-- START CTA -->
+<section class="section" id="gmaps">
+		<div class="con tainer">
+   			 <div class="map-responsive">
+   			 	<div class="container-fluid full-height">
+        <div class="row row-height"><!-- อันนี้ห้ามยุ่ง มีผลกับggmap -->
+
+
+        <!-- LEFT OF MAP =============================================== -->
+
+            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 content-left ">
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="img_wrapper">
+                            <div class="ribbon">
+                                <!--<span>Popular</span>-->
+                            </div>
+                            <div class="tools_i">
+                                <div class="directions_list_map" onclick="onHtmlClick('Mustsee', 0)">
+                                    <a class="tooltip_styled tooltip-effect-4"><span class="tooltip-item"></span>
+								<div class="tooltip-content">View on map</div>
+								</a>
+                                </div>
+
+                            </div>
+                            <!-- End tool_i -->
+                            <div class="img_container">
+                                <a>
+                                    <img src="img/map/bangtao.jpg" width="800" height="533" class="img-responsive" alt="">
+                                    <div class="short_info">
+
+                                        <h3>Bang Tao Beach</h3>
+                                        <em>Beachfront</em>
+                                        <p>
+                                            A great tree lined beach.
+                                        </p>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End img_wrapper -->
+                    </div>
+                    <!-- End col-md-6 -->
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="img_wrapper">
+                            <div class="ribbon">
+                                <!--<span>Popular</span>-->
+                            </div>
+                            <div class="tools_i">
+                                <div class="directions_list_map" onclick="onHtmlClick('Mustsee', 1)">
+                                    <a class="tooltip_styled tooltip-effect-4"><span class="tooltip-item"></span>
+								<div class="tooltip-content">View on map</div>
+								</a>
+                                </div>
+
+                            </div>
+                            <!-- End tool_i -->
+                            <div class="img_container">
+                                <a >
+                                    <img src="img/map/surin.jpg" width="800" height="533" class="img-responsive" alt="">
+                                    <div class="short_info">
+
+                                        <h3>Surin Beach</h3>
+                                        <em>หาดสุริน</em>
+                                        <p>
+                                            A quam morbi ut arcu, eget neque molestie, ullamcorper congue pharetra, hendrerit odio consectetuer.
+                                        </p>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End img_wrapper -->
+                    </div>
+                    <!-- End col-md-6 -->
+                </div>
+                <!-- End row -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="img_wrapper">
+                            <div class="ribbon">
+                                <!--<span>Popular</span>-->
+                            </div>
+                            <div class="tools_i">
+                                <div class="directions_list_map" onclick="onHtmlClick('Mustsee', 2)">
+                                    <a class="tooltip_styled tooltip-effect-4"><span class="tooltip-item"></span>
+								<div class="tooltip-content">View on map</div>
+								</a>
+                                </div>
+                                                            </div>
+                            <!-- End tool_i -->
+                            <div class="img_container">
+                                <a >
+                                    <img src="img/map/kamala.jpg" width="800" height="533" class="img-responsive" alt="">
+                                    <div class="short_info">
+                                        <!-- <small>1.30 min</small>-->
+                                        <h3>Kamala Beach</h3>
+                                        <em>Beachfront</em>
+                                        <p>
+                                            photographer:cumidanciki/
+                                        </p>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End img_wrapper -->
+                    </div>
+                    <!-- End col-md-6 -->
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="img_wrapper">
+                            <div class="ribbon">
+                                <!--<span>Popular</span>-->
+                            </div>
+                            <div class="tools_i">
+                                <div class="directions_list_map" onclick="onHtmlClick('Mustsee', 3)">
+                                    <a class="tooltip_styled tooltip-effect-4"><span class="tooltip-item"></span>
+								<div class="tooltip-content">View on map</div>
+								</a>
+                                </div>
+                                                            </div>
+                            <!-- End tool_i -->
+                            <div class="img_container">
+                                <a>
+                                    <img src="img/map/phuketfantasea.jpg" width="800" height="533" class="img-responsive" alt="">
+                                    <div class="short_info">
+                                        <!-- <small>1.30 min</small>-->
+                                        <h3>Pkuket Fantasea</h3>
+                                        <em>Theme Park</em>
+                                        <p>
+                                             The Ultimate Nighttime Cultural Theme Park
+                                             Photo by	Walter Lim from Singapore
+                                        </p>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End img_wrapper -->
+                    </div>
+                    <!-- End col-md-6 -->
+                </div>
+                <!-- End row -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="img_wrapper">
+                            <div class="ribbon">
+                                <!--<span>Popular</span>-->
+                            </div>
+                            <div class="tools_i">
+                                <div class="directions_list_map" onclick="onHtmlClick('Mustsee', 4)">
+                                    <a class="tooltip_styled tooltip-effect-4"><span class="tooltip-item"></span>
+								<div class="tooltip-content">View on map</div>
+								</a>
+                                </div>
+                                                            </div>
+                            <!-- End tool_i -->
+                            <div class="img_container">
+                                <a>
+                                    <img src="img/map/patong.jpg" width="800" height="533" class="img-responsive" alt="">
+                                    <div class="short_info" style="left: 0; bottom: 0">
+                                        <!-- <small>1.30 min</small>-->
+                                        <h3>Patong Beach</h3>
+                                        <em>Beach and Waling</em>
+                                        <p>
+                                          Beachront and Night Walking Street<br />
+                                          Photo by <a href="https://www.flickr.com/photos/imyanghai/">Yang Hai</a>
+                                        </p>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End img_wrapper -->
+                    </div>
+                    <!-- End col-md-6 -->
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="img_wrapper">
+                            <div class="ribbon top">
+                                <span>Top rated</span>
+                            </div>
+                            <div class="tools_i">
+                                <div class="directions_list_map" onclick="onHtmlClick('Mustsee', 5)">
+                                    <a class="tooltip_styled tooltip-effect-4"><span class="tooltip-item"></span>
+								<div class="tooltip-content">View on map</div>
+								</a>
+                                </div>
+                                                            </div>
+                            <!-- End tool_i -->
+                            <div class="img_container">
+                                <a>
+                                    <img src="img/map/karon.jpg" width="800" height="533" class="img-responsive" alt="">
+                                    <div class="short_info">
+                                        <!-- <small>1.30 min</small>-->
+                                        <h3>Karon Beach</h3>
+                                        <em>หาดกะรน</em>
+                                        <p>
+                                            Karon Viewpoint Thai name is Kho Sam Haad
+                                        </p>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End img_wrapper -->
+                    </div>
+                    <!-- End col-md-6 -->
+                </div>
+                <!-- End row -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="img_wrapper">
+                            <div class="ribbon top">
+                                <span>Top rated</span>
+                            </div>
+                            <div class="tools_i">
+                                <div class="directions_list_map" onclick="onHtmlClick('Mustsee', 6)">
+                                    <a class="tooltip_styled tooltip-effect-4"><span class="tooltip-item"></span>
+								<div class="tooltip-content">View on map</div>
+								</a>
+                                </div>
+                                                            </div>
+                            <!-- End tool_i -->
+                            <div class="img_container">
+                                <a>
+                                    <img src="img/map/promthep.jpg" width="800" height="533" class="img-responsive" alt="">
+                                    <div class="short_info">
+                                        <!-- <small>1.30 min</small>-->
+                                        <h3>Promthep Cape</h3>
+                                        <em>แหลมพรหมเทพ</em>
+                                        <p>
+                                            Scenic point for Sunset View
+                                        </p>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End img_wrapper -->
+                    </div>
+                    <!-- End col-md-6 -->
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="img_wrapper">
+                            <div class="ribbon top">
+                                <span>Top rated</span>
+                            </div>
+                            <div class="tools_i">
+                                <div class="directions_list_map" onclick="onHtmlClick('Mustsee', 7)">
+                                    <a class="tooltip_styled tooltip-effect-4"><span class="tooltip-item"></span>
+								<div class="tooltip-content">View on map</div>
+								</a>
+                                </div>
+                                                            </div>
+                            <!-- End tool_i -->
+                            <div class="img_container">
+                                <a>
+                                    <img src="img/map/hkt.jpg" width="800" height="533" class="img-responsive" alt="">
+                                    <div class="short_info">
+                                        <!-- <small>1.30 min</small>-->
+                                        <h3>Phuket  International Airport</h3>
+                                        <em>Transport</em>
+                                        <p>
+                                            ท่าอากาศยานนานาชาติภูเก็ต
+                                        </p>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End img_wrapper -->
+                    </div>
+                    <!-- End col-md-6 -->
+                </div>
+                <!-- End row -->
+
+            </div>
+            <!-- End content-left-->
+              <!-- LEFT OF MAP =============================================== -->
+
+
+            <div class=" col-lg-7 col-md-7 col-sm-6 col-xs-12 ">
+                <div class="map" id="map"></div>
+                <!-- map-->
+            </div>
+
+        </div>
+        <!-- End row-->
+    </div>
+			 </div>
+	</div>
+</section>
 
 	<!-- END CTA -->
 
@@ -856,7 +1129,44 @@ Cherngtalay, <br>Thalang, Phuket, 83110 Thailand
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Custom -->
 	<script src="js/app.js"></script>
+	
+	<!-- for MAP -->
+	
+	<script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="http://maps.google.com/maps/api/js"></script>
+	<script src="http://maps.google.com/maps/api/js?key=AIzaSyDlvxs3MkgmrYxElC7ny9w4IRv_quHZkGk"></script>
+	<script src="js/must_see_map.js"></script>
+	<script src="js/infobox.js"></script>
+    <script src="js/ion.rangeSlider.min.js"></script>
+    <script src="js/switchery.js"></script>
+    
+     <!-- SPECIFIC SCRIPTS -->
+    <script src="js/raphael-2.1.4.min.js"></script>
+    <script src="js/justgage.min.js"></script>
+    <script src="js/score.js"></script>
+	<script>
+        'use strict';
+        var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
+        elems.forEach(function (html) {
+            var switchery = new Switchery(html, {
+                size: 'small'
+            });
+        });
 
+        $("#range").ionRangeSlider({
+            hide_min_max: true,
+            keyboard: true,
+            min: 30,
+            max: 180,
+            from: 60,
+            to: 130,
+            type: 'double',
+            step: 1,
+            prefix: "Min. ",
+            grid: false
+        });
+    </script>
 
 </body>
 
