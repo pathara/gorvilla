@@ -492,16 +492,16 @@ p{
 .features-icon {
     position: relative;
     display: inline-block;
-    width: 54px;
-    height: 54px;
+    width: 50px;
+    height: 50px;
     border: 2px solid rgba(21, 101, 216, 0.1);
     border-radius: 15px;
   }
   
   .features-icon i {
     color: #3864f3 !important;
-    line-height: 54px;
-    font-size: 22px;
+    line-height: 50px;
+    font-size: 30px;
   }
   
 
