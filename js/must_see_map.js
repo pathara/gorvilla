@@ -1,4 +1,4 @@
-
+﻿
 	(function(A) {
 	if (!Array.prototype.forEach)
 		A.forEach = A.forEach || function(action, that) {
@@ -19,7 +19,7 @@
 				location_latitude: 8.0032059,
 				location_longitude: 98.2925702,
 				map_image_url: 'img/map/bangtaos.jpg',
-				rate: '36 Min | 24.5 km',
+				rate: '5 Min | 50 m',
 				name_point: 'BANG TAO BEACH',
 				description_point: ' description point 001',
 				get_directions_start_address: '',
@@ -28,10 +28,10 @@
 			},
 			{
 				type_point: 'Beachfront',
-				location_latitude: 7.9758946,
-				location_longitude: 98.2769385,
+				location_latitude: 7.975473, 
+				location_longitude: 98.278466,
 				map_image_url: 'img/map/surins.jpg',
-				rate: '36 Min | 24.5 km',
+				rate: '36 Min | 3.91 km',
 				name_point: 'SURIN BEACH',
 				description_point: '',
 				get_directions_start_address: '',
@@ -40,10 +40,10 @@
 			},
 			{
 				type_point: 'Beachfront',
-				location_latitude: 7.956962,
-				location_longitude: 98.283121,
+				location_latitude: 7.954913, 
+				location_longitude: 98.282687,
 				map_image_url: 'img/map/kamalas.jpg',
-				rate: '36 Min | 24.5 km',
+				rate: '36 Min | 5.82 km',
 				name_point: 'KAMALA BEACH',
 				description_point: 'Photo by govertvissers',
 				get_directions_start_address: '',
@@ -52,10 +52,10 @@
 			},
 			{
 				type_point: 'Entertainment',
-				location_latitude: 7.956509,
-				location_longitude: 98.287529,
+				location_latitude: 7.956439,
+				location_longitude: 98.287563,
 				map_image_url: 'img/map/phuketfantaseas.jpg',
-				rate: '36 Min | 24.5 km',
+				rate: '36 Min | 5.6 km',
 				name_point: 'PHUKET FANTASEA',
 				description_point: 'The Ultimate Nighttime Cultural Theme Park',
 				get_directions_start_address: '',
@@ -67,7 +67,7 @@
 				location_latitude: 7.896254,
 				location_longitude: 98.295391,
 				map_image_url: 'img/map/patongs.jpg',
-				rate: '36 Min | 24.5 km',
+				rate: '36 Min | 12.35 km',
 				name_point: 'PATONG BEACH',
 				description_point: 'Beach and Walking Street',
 				get_directions_start_address: '',
@@ -76,10 +76,10 @@
 			},
 			{
 				type_point: 'Beachfront',
-				location_latitude: 7.896254,
-				location_longitude: 98.295391,
+				location_latitude: 7.843533,  
+				location_longitude: 98.293962,
 				map_image_url: 'img/map/karons.jpg',
-				rate: '36 Min | 24.5 km',
+				rate: '36 Min | 17.97 km',
 				name_point: 'Karon View Point',
 				description_point: 'หาดกะรน',
 				get_directions_start_address: '',
@@ -88,8 +88,8 @@
 			},
 			{
 				type_point: 'Cape',
-				location_latitude: 43.769560,
-				location_longitude: 11.255814,
+				location_latitude: 7.7589177,
+				location_longitude: 98.3033572,
 				map_image_url: 'img/map/promtheps.jpg',
 				rate: '36 Min | 24.5 km',
 				name_point: 'PROMTHEP CAPE',
@@ -109,11 +109,59 @@
 				get_directions_start_address: '',
 				phone: '+3934245255',
 				url_detail: ''
+			},
+			{
+				type_point: 'Activity',
+				location_latitude: 8.1033373,
+				location_longitude: 98.3260403,
+				map_image_url: 'img/map/golfs.jpg',
+				rate: '28Min | 18.2 km',
+				name_point: 'Blue Canyon Country Club',
+				description_point: 'The legendary Blue Canyon Country Club in Phuket',
+				get_directions_start_address: '',
+				phone: '+3934245255',
+				url_detail: ''
+			},
+			{
+				type_point: 'Landmark',
+				location_latitude: 7.981082,
+				location_longitude:  98.363887,
+				map_image_url: 'img/map/monuments.jpg',
+				rate: '20Min | 10.6 km',
+				name_point: 'Two Heroines Monument',
+				description_point: 'อนุสาวรีย์ท้าวเทพกระษัตรี ท้าวศรีสุนทร',
+				get_directions_start_address: '',
+				phone: '+3934245255',
+				url_detail: ''
+			},
+			{
+				type_point: 'Entertainment',
+				location_latitude: 7.897236, 
+				location_longitude:  98.304554,
+				map_image_url: 'img/map/patongboxings.jpg',
+				rate: '35Min | 19.2 km',
+				name_point: 'Patong Boxing Stadium Sainamyen',
+				description_point: 'Real Muay Thai in Phuket',
+				get_directions_start_address: '',
+				phone: '+3934245255',
+				url_detail: ''
+			},
+			{
+				type_point: 'Museum',
+				location_latitude: 7.885009,  
+				location_longitude: 98.386672,
+				map_image_url: 'img/map/thaihuas.jpg',
+				rate: '46Min | 23.7 km',
+				name_point: 'Thai Hua Museum',
+				description_point: 'Museum in a 1934 building with galleries on the history of Chinese people in Phuket & a coffee shop.',
+				get_directions_start_address: '',
+				phone: '+3934245255',
+				url_detail: ''
 			}
 			]
 		};
 			var mapOptions = {
-				zoom: 12,
+				zoom: 11,
 				center: new google.maps.LatLng(8.005907, 98.296803),
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 
