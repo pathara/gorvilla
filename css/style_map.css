@@ -1963,7 +1963,7 @@ ul#cat_nav li a:hover, ul#cat_nav li a.active{
 /*-------- 2.9 Whishlist --------*/
 .wishlist_close{
 	position:absolute;
-	top:18px;
+	top:180px;
 	right:18px;
 	width:18px;
 	height:26px;
@@ -3085,7 +3085,7 @@ position:absolute; right:2%;width:50px; height:50px;}
 	.full-height, .row-height{height:100%;}
 	.content-left{height:950px;overflow-y:scroll;}
 	/*.directions_list_map a {display:none;}*/
-	 #map{width:100%;height:450px;}
+	 #map{width:100%; height:100%; min-height:450px;}
 	
 }
 /* Small Devices, Tablets */
@@ -3099,7 +3099,7 @@ position:absolute; right:2%;width:50px; height:50px;}
   .full-height, .row-height{height:100%;}
   .content-left{height: 950px;overflow-y:scroll;}
  /* .directions_list_map a {display:none;}*/
-  #map{width:100%;height:400px;}
+  #map{width:100%;height:100%; min-height:400px;}
 	
 }
 /* Small Devices, Tablets */
@@ -3222,7 +3222,7 @@ position:absolute; right:2%;width:50px; height:50px;}
 	.form_title h3 strong{ display:none;}
 	.step{padding:20px 0 20px 0;margin:0 0 10px 0;}
 	
-	 #map{width:100%;height:320px;}
+	 #map{width:100%;height:320px; border-top:20px #FFFFFF solid;}
 	
 }
 

@@ -333,6 +333,7 @@ p{
 .home-small-title {
     font-size: 15px;
     letter-spacing: 8px;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 .home-slider {
@@ -459,6 +460,7 @@ p{
 .home-title {
     font-size: 42px;
     line-height: 60px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .home-desc {
