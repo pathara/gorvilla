@@ -28,7 +28,7 @@
 			},
 			{
 				type_point: 'Beachfront',
-				location_latitude: 7.975473, 
+				location_latitude: 7.975473,
 				location_longitude: 98.278466,
 				map_image_url: 'img/map/surins.jpg',
 				rate: '36 Min | 3.91 km',
@@ -40,7 +40,7 @@
 			},
 			{
 				type_point: 'Beachfront',
-				location_latitude: 7.954913, 
+				location_latitude: 7.954913,
 				location_longitude: 98.282687,
 				map_image_url: 'img/map/kamalas.jpg',
 				rate: '36 Min | 5.82 km',
@@ -59,7 +59,7 @@
 				name_point: 'PHUKET FANTASEA',
 				description_point: 'The Ultimate Nighttime Cultural Theme Park',
 				get_directions_start_address: '',
-				phone: '+66 76 385 000',
+				phone: '+66 76 385 111',
 				url_detail: 'www.phuket-fantasea.com'
 			},
 			{
@@ -76,7 +76,7 @@
 			},
 			{
 				type_point: 'Beachfront',
-				location_latitude: 7.843533,  
+				location_latitude: 7.843533,
 				location_longitude: 98.293962,
 				map_image_url: 'img/map/karons.jpg',
 				rate: '36 Min | 17.97 km',
@@ -107,7 +107,7 @@
 				name_point: 'Phuket International Airport',
 				description_point: 'ท่าอากาศยานนานาชาติภูเก็ต',
 				get_directions_start_address: '',
-				phone: '+3934245255',
+				phone: '+66-7632-7230-6',
 				url_detail: ''
 			},
 			{
@@ -119,7 +119,7 @@
 				name_point: 'Blue Canyon Country Club',
 				description_point: 'The legendary Blue Canyon Country Club in Phuket',
 				get_directions_start_address: '',
-				phone: '+3934245255',
+				phone: '+6681-894-3815',
 				url_detail: ''
 			},
 			{
@@ -131,34 +131,58 @@
 				name_point: 'Two Heroines Monument',
 				description_point: 'อนุสาวรีย์ท้าวเทพกระษัตรี ท้าวศรีสุนทร',
 				get_directions_start_address: '',
-				phone: '+3934245255',
+				phone: '+6676-311-381',
 				url_detail: ''
 			},
 			{
 				type_point: 'Entertainment',
-				location_latitude: 7.897236, 
+				location_latitude: 7.897236,
 				location_longitude:  98.304554,
 				map_image_url: 'img/map/patongboxings.jpg',
 				rate: '35Min | 19.2 km',
 				name_point: 'Patong Boxing Stadium Sainamyen',
 				description_point: 'Real Muay Thai in Phuket',
 				get_directions_start_address: '',
-				phone: '+3934245255',
+				phone: '+6684-249-5929',
 				url_detail: ''
 			},
 			{
 				type_point: 'Museum',
-				location_latitude: 7.885009,  
+				location_latitude: 7.885009,
 				location_longitude: 98.386672,
 				map_image_url: 'img/map/thaihuas.jpg',
 				rate: '46Min | 23.7 km',
 				name_point: 'Thai Hua Museum',
 				description_point: 'Museum in a 1934 building with galleries on the history of Chinese people in Phuket & a coffee shop.',
 				get_directions_start_address: '',
-				phone: '+3934245255',
+				phone: '+6676-211-224',
 				url_detail: ''
+			},
+			{
+				type_point: 'Outdoor',
+				location_latitude: 7.9245376,
+				location_longitude: 98.3206849,
+				map_image_url: 'img/map/flyinghanumans.jpg',
+				rate: '48Min | 26.8 km',
+				name_point: 'Flying Hanuman ',
+				description_point: 'Multiple Ziplines through the jungle',
+				get_directions_start_address: '',
+				phone: '+6681-979-2332',
+				url_detail: 'https://flyinghanuman.com/'
 			}
-			]
+		],'Default': [
+			{
+				type_point: 'Beachfront',
+				location_latitude: 8.020476,
+				location_longitude: 98.305505,
+				map_image_url: 'img/map/gorvillas.jpg',
+				rate: '0 Min | 0 m',
+				name_point: 'GORVILLA',
+				description_point: ' at Angsana Villa PHUKET',
+				get_directions_start_address: '',
+				phone: '+6682-6423272',
+				url_detail: ''
+			}]
 		};
 			var mapOptions = {
 				zoom: 11,
@@ -337,7 +361,7 @@
 				'</div>',
 				disableAutoPan: false,
 				maxWidth: 0,
-				pixelOffset: new google.maps.Size(10, 115),
+				pixelOffset: new google.maps.Size(25, 115),
 				closeBoxMargin: '5px -28px 0 0',
 				closeBoxURL: "img/close_infobox.png",
 				isHidden: false,
