@@ -653,6 +653,7 @@ p{
     position: relative;
     overflow: hidden;
     display: block;
+    border:1px #000000 solid; 
 }
 
 .item-box a {
