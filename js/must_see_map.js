@@ -23,7 +23,6 @@
 				name_point: 'BANG TAO BEACH',
 				description_point: ' description point 001',
 				get_directions_start_address: '',
-				phone: '+111211121112',
 				url_detail: 'florence-must-see-detail.html'
 			},
 			{
@@ -35,7 +34,6 @@
 				name_point: 'SURIN BEACH',
 				description_point: '',
 				get_directions_start_address: '',
-				phone: '+3934245255',
 				url_detail: ''
 			},
 			{
@@ -47,7 +45,6 @@
 				name_point: 'KAMALA BEACH',
 				description_point: 'Photo by govertvissers',
 				get_directions_start_address: '',
-				phone: '+3934245255',
 				url_detail: ''
 			},
 			{
@@ -71,7 +68,6 @@
 				name_point: 'PATONG BEACH',
 				description_point: 'Beach and Walking Street',
 				get_directions_start_address: '',
-				phone: '+3934245255',
 				url_detail: ''
 			},
 			{
@@ -180,7 +176,7 @@
 				name_point: 'GORVILLA',
 				description_point: ' at Angsana Villa PHUKET',
 				get_directions_start_address: '',
-				phone: '+6682-6423272',
+				phone: '+662-6423272',
 				url_detail: ''
 			}]
 		};
